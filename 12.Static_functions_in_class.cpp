@@ -33,10 +33,21 @@ public:
     }
 };
 
+class child : public GfG
+{
+public:
+    static void printMsg()
+    {
+
+        cout << "child function printMsg() called" << endl;
+    }
+};
+
 // main function
 int main()
 {
     // invoking a static member function
     GfG::printMsg();                                // scoper resolution operator to access the functions we can also access using the objects but it is not recommended.
     GfG::printMsg("overloading success in static"); // overloading is possible in static method
+    child::printMsg();                              // it git overridden ig
 }
