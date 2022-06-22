@@ -25,7 +25,11 @@ public:
     // static member function
     static void printMsg()
     {
-        cout << "Welcome to GfG!";
+        cout << "Welcome to GfG!" << endl;
+    }
+    static void printMsg(string str)
+    {
+        cout << str << endl;
     }
 };
 
@@ -33,5 +37,6 @@ public:
 int main()
 {
     // invoking a static member function
-    GfG::printMsg(); // scoper resolution operator to access the functions we can also access using the objects but it is not recommended.
+    GfG::printMsg();                                // scoper resolution operator to access the functions we can also access using the objects but it is not recommended.
+    GfG::printMsg("overloading success in static"); // overloading is possible in static method
 }
