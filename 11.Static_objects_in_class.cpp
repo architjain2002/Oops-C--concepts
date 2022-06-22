@@ -18,6 +18,7 @@
 // Class objects as static :
 // Just like variables, objects also when declared as static have a scope till the lifetime of program.
 // Consider the below program where the object is non - static.
+
 #include <iostream>
 using namespace std;
 
