@@ -33,6 +33,8 @@ public:
     };
 };
 
+int GfG::i = 0; // syntax to access the static members of a clas
+
 int main()
 {
     GfG obj1;
