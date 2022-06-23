@@ -54,6 +54,7 @@
         "sml": "cd $dir && sml $fileName"
     },
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp"
     }
 }
