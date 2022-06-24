@@ -18,7 +18,7 @@ int main()
     // *i=10;
     // The above statement will give CTE
     // Once Ptr(*i) value is
-    // assigned, later it can't
+    // assigned, later it cant
     // be modified(Error)
 
     char y{'A'};
