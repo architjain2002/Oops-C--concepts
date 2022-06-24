@@ -30,6 +30,11 @@ public:
     {
         cout << "Inside first base class" << endl;
     }
+    // first base class's Constructor
+    ~Parent()
+    {
+        cout << "Parent Destructor" << endl;
+    }
 };
 
 // child class inherits parent
@@ -41,6 +46,10 @@ public:
     {
         cout << "Inside child class" << endl;
     }
+    ~Child()
+    {
+        cout << "Child Destructor" << endl;
+    }
 };
 
 // grandchild class inherits child
@@ -51,6 +60,10 @@ public:
     grandChild()
     {
         cout << "Inside grandchild class" << endl;
+    }
+    ~grandChild()
+    {
+        cout << "Grandchild Destructor" << endl;
     }
 };
 
