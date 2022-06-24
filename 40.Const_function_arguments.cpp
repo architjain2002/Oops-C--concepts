@@ -1,6 +1,6 @@
 // A function() parameters and return type of function() can be declared as constant.
 // Constant values cannot be changed as any such attempt will generate a compile-time error.
-
+// const function arguments
 #include <iostream>
 using namespace std;
 // create an integer Test() function contains an argument num
